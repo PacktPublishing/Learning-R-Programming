@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+  <style>
+    h1 {
+      color: darkblue;
+    }
+    .product-list {
+      width: 50px;
+    }
+    .product-list li.selected .name {
+      color: blue;
+    }
+    .product-list .name {
+      font-weight: bold;
+    }
+    .product-list .price {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Products</h1>
+  <p>The following lists some products</p>
+  <div id="table1" class="product-list">
+    <ul>
+      <li>
+        <span class="name">Product-A</span>
+        <span class="price">$199.95</span>
+      </li>
+      <li class="selected">
+        <span class="name">Product-B</span>
+        <span class="price">$129.95</span>
+      </li>
+      <li>
+        <span class="name">Product-C</span>
+        <span class="price">$99.95</span>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

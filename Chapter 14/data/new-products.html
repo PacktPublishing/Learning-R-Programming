@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Products</title>
+  <style>
+    p {
+      margin: 2px;
+    }
+    .product-list {
+      width: 80%;
+    }
+    .product-list ul {
+      padding-left: 8px;
+    }
+    .product-list ul li {
+      padding-left: 2px;
+      list-style: none;
+    }
+    .product-list > ul > li {
+      margin-top: 16px;
+      list-style: none;
+    }
+    .product-list .name {
+      font-weight: bold;
+      font-size: 1.25em;
+    }
+    .product-list .price {
+      color: green;
+    }
+    .product-list .info {
+      background-color: #efefef;
+      border-radius: 4px;
+    }
+    .info-key {
+      font-weight: bold;
+    }
+    .info-value {
+      
+    }
+    .unit {
+      padding-left: 4px;
+      color: #818181;
+    }
+    .bordered {
+      border: 1px gray dashed;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>New Products</h1>
+  <p>The following is a list of products</p>
+  <div id="list" class="product-list">
+    <ul>
+      <li>
+        <span class="name">Product-A</span>
+        <span class="price">$199.95</span>
+        <div class="info bordered">
+          <p>Description for Product-A</p>
+          <ul>
+            <li><span class="info-key">Quality</span> <span class="info-value">Good</span></li>
+            <li><span class="info-key">Duration</span> <span class="info-value">5</span><span class="unit">years</span></li>
+          </ul>
+        </div>
+      </li>
+      <li class="selected">
+        <span class="name">Product-B</span>
+        <span class="price">$129.95</span>
+        <div class="info">
+          <p>Description for Product-B</p>
+          <ul>
+            <li><span class="info-key">Quality</span> <span class="info-value">Medium</span></li>
+            <li><span class="info-key">Duration</span> <span class="info-value">2</span><span class="unit">years</span></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <span class="name">Product-C</span>
+        <span class="price">$99.95</span>
+        <div class="info">
+          <p>Description for Product-C</p>
+          <ul>
+            <li><span class="info-key">Quality</span> <span class="info-value">Good</span></li>
+            <li><span class="info-key">Duration</span> <span class="info-value">4</span><span class="unit">years</span></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <p>All products are available for sale!</p>
+</body>
+</html>
