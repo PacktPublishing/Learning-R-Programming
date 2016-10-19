@@ -22,7 +22,9 @@ class(strings)
 ## Related R products
 
 [Instant R Starter](https://www.packtpub.com/big-data-and-business-intelligence/instant-r-starter-instant?utm_source=github&utm_campaign=9781782163503&utm_medium=repository)
+
 [R Object-oriented Programming](https://www.packtpub.com/big-data-and-business-intelligence/r-object-oriented-programming?utm_source=github&utm_medium=repository&utm_campaign=9781783986682)
+
 [R for Data Science](https://www.packtpub.com/big-data-and-business-intelligence/r-data-science?utm_source=github&utm_medium=repository&utm_campaign=9781784390860)
 
 ### Suggestion and Feedback 
