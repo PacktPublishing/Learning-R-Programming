@@ -1,18 +1,29 @@
 # Learning R Programming
 
-This is the code repository for the book Learning R Programming, Published by Packt.
+This is the code repository for the book Learning R Programming, Published by Packt.It contains all the supporting project files necessary to work through the book from start to finish.
 
-## What you will learn
 
-* Explore the basic functions in R and familiarize yourself with common data structures 
-* Work with data in R using basic functions of statistics, data mining, data visualization, root solving, and optimization
-* Get acquainted with R’s evaluation model with environments and meta-programming techniques with symbol, call, formula, and expression
-* Get to grips with object-oriented programming in R: including the S3, S4, RC, and R6 systems
-* Access relational databases such as SQLite and non-relational databases such as MongoDB and Redis
-* Get to know high performance computing techniques such as parallel computing and Rcpp
-* Use web scraping techniques to extract information
-* Create RMarkdown, an interactive app with Shiny, DiagramR, interactive charts, ggvis, and more
+## Code snippets
+All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02
+~~~
+class(c(TRUE, TRUE, FALSE))
+class(c("Hello", "World"))
 
-## Related products
+
+is.numeric(c(1, 2, 3))
+is.numeric(c(TRUE, TRUE, FALSE))
+is.numeric(c("Hello", "World"))
+
+
+strings <- c("1", "2", "3")
+class(strings)
+~~~
+
+## Related R products
 
 [Instant R Starter](https://www.packtpub.com/big-data-and-business-intelligence/instant-r-starter-instant?utm_source=github&utm_campaign=9781782163503&utm_medium=repository)
+[R Object-oriented Programming](https://www.packtpub.com/big-data-and-business-intelligence/r-object-oriented-programming?utm_source=github&utm_medium=repository&utm_campaign=9781783986682)
+[R for Data Science](https://www.packtpub.com/big-data-and-business-intelligence/r-data-science?utm_source=github&utm_medium=repository&utm_campaign=9781784390860)
+
+### Suggestion and Feedback 
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform)
