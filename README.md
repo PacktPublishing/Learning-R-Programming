@@ -1,8 +1,3 @@
-## $5 Tech Unlocked 2021!
-[Buy and download this Book for only $ 5 on PacktPub.com](https://www.packtpub.com/product/learning-r-programming/9781785889776)
------
-*If you have read this book then please consider leaving a review via [Amazon.com](https://www.amazon.com/gp/product/178588977X). Leaving reviews helps provide valuable feedback to help improve the quality of the title.The $5 campaign         runs from __December 15th 2020__ to __January 13th 2021.__*
-
 # Learning R Programming
 
 This is the code repository for the book Learning R Programming, Published by Packt.It contains all the supporting project files necessary to work through the book from start to finish.
